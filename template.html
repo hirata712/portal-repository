@@ -13,13 +13,7 @@
 <div id="inner">
 <header>
 <a href="http://www.hirata.co.jp"><img src="./img/ourLogo_tp.png" class="logo"></a><span id="real-time"></span>
-<!--
-<h1>あなたのＨＰ<span id="real-time"></span></h1>
 
-<a class="logo" href="#"></a>
-
-<img src="./img/ourLogo_tp.png" height="85%" width="auto" ><span id="real-time"></span>
--->
 </header>
 <div id="container">
 <h2>ポータルのポータルサイト</h2>
@@ -67,19 +61,7 @@ function getCurrentDateInfo(date_obj){
 
     return [year,month,day,hour,min,sec]
 }
-/*
-function CurrentTime() {
-    var today = new Date();
-    var year = today.getFullYear();
-    var month = today.getMonth() + 1;
-    var day = today.getDate();
-    var hour = today.getHours();
-    var minutes  = today.getMinutes();
-    var seconds  = today.getSeconds();
-    var text = year + '年' + month + '月' + day + '日 ' + hour + ":" + minutes + ":" + seconds;
-   document.getElementById("real-time").innerHTML = text;
-}
-*/
+
 function currentTime(){
     var today = new Date();
     var ansArr = getCurrentDateInfo(today);

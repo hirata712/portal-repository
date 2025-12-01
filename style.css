@@ -3,6 +3,10 @@
 	height:85%; 
 	width:auto;
 }
+.indent-1em-line {
+  text-indent: 1em;
+}
+
 #real-time{
 	/*background: orange;*/
 	font-size:  12px;
